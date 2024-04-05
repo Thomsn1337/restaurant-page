@@ -59,6 +59,11 @@ main {
     box-sizing: border-box;
 }
 
+.content a {
+    color: var(--color-text);
+    font-weight: 700;
+}
+
 .container {
     display: flex;
     align-items: center;
