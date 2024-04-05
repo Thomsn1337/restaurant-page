@@ -3,6 +3,9 @@ export default function home() {
     content.classList.add("content");
 
     content.innerHTML = `
+            <h2>
+                Morbi imperdiet diam eu justo tempor hendrerit
+            </h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec mi
                 a mauris auctor tempor. Donec non lorem nec elit vulputate volutpat.
@@ -14,19 +17,9 @@ export default function home() {
                 consectetur laoreet vitae ac erat. Donec pharetra ut mauris sit amet
                 placerat. Mauris dictum rutrum mollis.
             </p>
-            <p>
-                Vestibulum pharetra maximus nibh sit amet interdum. Donec vel
-                dignissim massa, vitae pulvinar ante. In ultricies ultricies
-                porttitor. Mauris diam tortor, ultricies ac tristique vel, bibendum eu
-                quam. Etiam auctor, risus nec egestas eleifend, augue augue imperdiet
-                justo, id ultrices arcu tortor quis lorem. Nunc porttitor vestibulum
-                varius. Mauris semper enim metus, id malesuada ante faucibus sit amet.
-                Nunc mollis ligula tellus, at egestas ex consectetur nec. Aliquam
-                pretium accumsan tellus, vel varius tortor ultrices a. Mauris non
-                egestas nibh. Ut scelerisque, nibh ac sollicitudin pretium, turpis
-                nunc pharetra eros, nec ultricies quam lorem et est. Integer a luctus
-                magna.
-            </p>
+            <h2>
+                Aenean laoreet felis erat, eget malesuada justo congue
+            </h2>
             <p>
                 Vestibulum at ante ultrices, interdum ipsum pellentesque, scelerisque
                 ex. Sed vel sagittis leo, eu egestas ante. Quisque efficitur pharetra
@@ -39,14 +32,6 @@ export default function home() {
                 Suspendisse accumsan viverra est vitae lacinia. Interdum et malesuada
                 fames ac ante ipsum primis in faucibus. Cras eget ullamcorper nunc.
                 Nulla et mollis justo. Vivamus et tortor metus.
-            </p>
-            <p>
-                Integer semper bibendum est. Vestibulum a dapibus arcu. Quisque ac
-                malesuada lectus, ut varius leo. Donec finibus lorem euismod,
-                ullamcorper nisi bibendum, euismod metus. Vestibulum ante ipsum primis
-                in faucibus orci luctus et ultrices posuere cubilia curae; Donec at
-                risus velit. Cras id neque ut dolor tincidunt dignissim. Donec vitae
-                lacus sed felis pellentesque dignissim.
             </p>
         `;
 
