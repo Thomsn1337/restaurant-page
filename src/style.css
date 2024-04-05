@@ -33,11 +33,26 @@ footer {
 }
 
 header {
-    justify-content: space-around;
+    justify-content: center;
+    height: 60px;
 }
 
 header button {
-    margin: 0 20px;
+    margin: 0 40px;
+    width: 120px;
+    height: 35px;
+    font-size: 1em;
+    color: var(--color-text);
+    background: transparent;
+    border: 2px solid var(--color-text);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+header button:hover {
+    background-color: var(--color-text);
+    color: var(--color-base);
 }
 
 main {
