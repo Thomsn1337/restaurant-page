@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+    --color-base: #334351;
+    --color-text: #e6eff2;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("./assets/background.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    font-family: "Rubik", sans-serif;
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header,
+footer {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    background-color: var(--color-base);
+    width: 100%;
+    min-height: 40px;
+}
+
+header {
+    justify-content: space-around;
+}
+
+header button {
+    margin: 0 20px;
+}
+
+main {
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    padding: 20px;
+}
+
+#content {
+    flex: 0 1 900px;
+    max-height: 90%;
+    background-color: var(--color-base);
+    font-size: 1.1em;
+    border-radius: 30px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+footer {
+    padding: 0 20px;
+}
