@@ -1,4 +1,5 @@
 import home from "./components/home";
+import menu from "./components/menu";
 import "./style.css";
 
 const contentMain = document.querySelector("main");
@@ -6,6 +7,11 @@ const contentMain = document.querySelector("main");
 function loadHome() {
     clearMain();
     contentMain.appendChild(home());
+}
+
+function loadMenu() {
+    clearMain();
+    contentMain.appendChild(menu());
 }
 
 function clearMain() {
@@ -20,7 +26,7 @@ document
 
 document
     .querySelector("#menu-button")
-    .addEventListener("click", () => clearMain());
+    .addEventListener("click", () => loadMenu());
 
 document
     .querySelector("#about-button")

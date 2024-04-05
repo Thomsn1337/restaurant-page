@@ -59,6 +59,31 @@ main {
     box-sizing: border-box;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    margin: 20px 0;
+    border: 2px solid var(--color-text);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.container .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex: 1 0 150px;
+    background-color: var(--color-text);
+    color: var(--color-base);
+}
+
+.container p {
+    padding: 0 20px;
+    overflow: auto;
+}
+
 footer {
     padding: 0 20px;
 }
