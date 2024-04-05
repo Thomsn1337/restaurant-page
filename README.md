@@ -4,5 +4,6 @@ A simple webpage for an imaginary restaurant written in vanilla JavaScript. This
 
 ## Links
 
+- [Live view](https://thomsn1337.github.io/restaurant-page/)
 - [About Odin](https://www.theodinproject.com/about)
 - [Assignment page](https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page)
