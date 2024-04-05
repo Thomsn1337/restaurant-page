@@ -1,5 +1,6 @@
 import home from "./components/home";
 import menu from "./components/menu";
+import about from "./components/about";
 import "./style.css";
 
 const contentMain = document.querySelector("main");
@@ -12,6 +13,11 @@ function loadHome() {
 function loadMenu() {
     clearMain();
     contentMain.appendChild(menu());
+}
+
+function loadAbout() {
+    clearMain();
+    contentMain.appendChild(about());
 }
 
 function clearMain() {
@@ -30,6 +36,6 @@ document
 
 document
     .querySelector("#about-button")
-    .addEventListener("click", () => clearMain());
+    .addEventListener("click", () => loadAbout());
 
 window.addEventListener("load", () => loadHome());
